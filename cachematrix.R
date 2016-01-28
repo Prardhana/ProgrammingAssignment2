@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## First function is a list of functions which gets, sets values of matrix, 
+## and gets ,sets values of inversed matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -17,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
              getsolve = getsolve)
 }
 
-## Write a short comment describing this function
+## This function checks if the data is cached, if no - solves the inversed matrix
+## or else returns the cached matrix
 
 cacheSolve <- function(x, ...) {
         m <- x$getsolve()
